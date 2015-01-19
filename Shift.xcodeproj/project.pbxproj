@@ -9,7 +9,19 @@
 /* Begin PBXBuildFile section */
 		8EAF09891A63360E00B1E5D8 /* Shift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAF09881A63360E00B1E5D8 /* Shift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EAF098F1A63360E00B1E5D8 /* Shift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAF09831A63360E00B1E5D8 /* Shift.framework */; };
-		8EAF09961A63360E00B1E5D8 /* ShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09951A63360E00B1E5D8 /* ShiftTests.swift */; };
+		8EAF09961A63360E00B1E5D8 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09951A63360E00B1E5D8 /* ModelTests.swift */; };
+		8EAF09A01A63363A00B1E5D8 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Shift.swift */; };
+		8EAF09A21A63366600B1E5D8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A11A63366600B1E5D8 /* Alamofire.swift */; };
+		8EAF09A41A6336A300B1E5D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A31A6336A300B1E5D8 /* Model.swift */; };
+		8EAF09A61A63392D00B1E5D8 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A51A63392D00B1E5D8 /* Debug.swift */; };
+		8EAF09A91A633A5700B1E5D8 /* ShiftTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */; };
+		8EAF09AA1A63501400B1E5D8 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A51A63392D00B1E5D8 /* Debug.swift */; };
+		8EAF09AB1A6350B200B1E5D8 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Shift.swift */; };
+		8EAF09AC1A6350B500B1E5D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A31A6336A300B1E5D8 /* Model.swift */; };
+		8EAF09AD1A6350B800B1E5D8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A11A63366600B1E5D8 /* Alamofire.swift */; };
+		8EAF09AF1A6350F500B1E5D8 /* ShiftTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */; };
+		8EAF09B21A63900900B1E5D8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */; };
+		8EAF09B31A63909300B1E5D8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +40,14 @@
 		8EAF09881A63360E00B1E5D8 /* Shift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shift.h; sourceTree = "<group>"; };
 		8EAF098E1A63360E00B1E5D8 /* ShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAF09941A63360E00B1E5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EAF09951A63360E00B1E5D8 /* ShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftTests.swift; sourceTree = "<group>"; };
+		8EAF09951A63360E00B1E5D8 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		8EAF099F1A63363A00B1E5D8 /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		8EAF09A11A63366600B1E5D8 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		8EAF09A31A6336A300B1E5D8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8EAF09A51A63392D00B1E5D8 /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShiftTests.xcdatamodel; sourceTree = "<group>"; };
+		8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftTestModel.swift; sourceTree = "<group>"; };
+		8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				8EAF09881A63360E00B1E5D8 /* Shift.h */,
+				8EAF099F1A63363A00B1E5D8 /* Shift.swift */,
+				8EAF09A31A6336A300B1E5D8 /* Model.swift */,
+				8EAF09A51A63392D00B1E5D8 /* Debug.swift */,
 				8EAF09861A63360E00B1E5D8 /* Supporting Files */,
 			);
 			path = Shift;
@@ -80,6 +102,7 @@
 		8EAF09861A63360E00B1E5D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EAF09B41A6390A500B1E5D8 /* APIs */,
 				8EAF09871A63360E00B1E5D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -88,7 +111,8 @@
 		8EAF09921A63360E00B1E5D8 /* ShiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				8EAF09951A63360E00B1E5D8 /* ShiftTests.swift */,
+				8EAF09951A63360E00B1E5D8 /* ModelTests.swift */,
+				8EAF09B01A63519B00B1E5D8 /* Core Data */,
 				8EAF09931A63360E00B1E5D8 /* Supporting Files */,
 			);
 			path = ShiftTests;
@@ -100,6 +124,24 @@
 				8EAF09941A63360E00B1E5D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EAF09B01A63519B00B1E5D8 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */,
+				8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		8EAF09B41A6390A500B1E5D8 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				8EAF09A11A63366600B1E5D8 /* Alamofire.swift */,
+				8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */,
+			);
+			name = APIs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAF09A41A6336A300B1E5D8 /* Model.swift in Sources */,
+				8EAF09A61A63392D00B1E5D8 /* Debug.swift in Sources */,
+				8EAF09A21A63366600B1E5D8 /* Alamofire.swift in Sources */,
+				8EAF09B21A63900900B1E5D8 /* SwiftyJSON.swift in Sources */,
+				8EAF09A01A63363A00B1E5D8 /* Shift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAF09961A63360E00B1E5D8 /* ShiftTests.swift in Sources */,
+				8EAF09AD1A6350B800B1E5D8 /* Alamofire.swift in Sources */,
+				8EAF09AC1A6350B500B1E5D8 /* Model.swift in Sources */,
+				8EAF09AB1A6350B200B1E5D8 /* Shift.swift in Sources */,
+				8EAF09B31A63909300B1E5D8 /* SwiftyJSON.swift in Sources */,
+				8EAF09A91A633A5700B1E5D8 /* ShiftTests.xcdatamodeld in Sources */,
+				8EAF09AF1A6350F500B1E5D8 /* ShiftTestModel.swift in Sources */,
+				8EAF09AA1A63501400B1E5D8 /* Debug.swift in Sources */,
+				8EAF09961A63360E00B1E5D8 /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +373,8 @@
 		8EAF099A1A63360E00B1E5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -328,12 +384,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8EAF099B1A63360E00B1E5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -405,6 +464,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */,
+			);
+			currentVersion = 8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */;
+			path = ShiftTests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8EAF097A1A63360E00B1E5D8 /* Project object */;
 }
