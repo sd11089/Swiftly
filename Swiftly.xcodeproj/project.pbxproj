@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EAF09891A63360E00B1E5D8 /* Shift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAF09881A63360E00B1E5D8 /* Shift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EAF098F1A63360E00B1E5D8 /* Shift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAF09831A63360E00B1E5D8 /* Shift.framework */; };
+		8E336A081A6F44100071673D /* SwiftlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E336A071A6F44100071673D /* SwiftlyTests.swift */; };
+		8E3DB6351A71A01800F8E90F /* CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DB6311A719F6C00F8E90F /* CollectionTests.swift */; };
+		8E3DB6361A71A05400F8E90F /* SwiftlyTestCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DB6331A719FAA00F8E90F /* SwiftlyTestCollection.swift */; };
+		8E3DB6371A71A08000F8E90F /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6EDEC41A6E0842000FAC06 /* Collection.swift */; };
+		8E6EDEC51A6E0842000FAC06 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6EDEC41A6E0842000FAC06 /* Collection.swift */; };
+		8EAF09891A63360E00B1E5D8 /* Swiftly.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAF09881A63360E00B1E5D8 /* Swiftly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EAF098F1A63360E00B1E5D8 /* Swiftly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAF09831A63360E00B1E5D8 /* Swiftly.framework */; };
 		8EAF09961A63360E00B1E5D8 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09951A63360E00B1E5D8 /* ModelTests.swift */; };
-		8EAF09A01A63363A00B1E5D8 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Shift.swift */; };
+		8EAF09A01A63363A00B1E5D8 /* Swiftly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Swiftly.swift */; };
 		8EAF09A21A63366600B1E5D8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A11A63366600B1E5D8 /* Alamofire.swift */; };
 		8EAF09A41A6336A300B1E5D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A31A6336A300B1E5D8 /* Model.swift */; };
 		8EAF09A61A63392D00B1E5D8 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A51A63392D00B1E5D8 /* Debug.swift */; };
-		8EAF09A91A633A5700B1E5D8 /* ShiftTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */; };
+		8EAF09A91A633A5700B1E5D8 /* SwiftlyTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A71A633A5700B1E5D8 /* SwiftlyTests.xcdatamodeld */; };
 		8EAF09AA1A63501400B1E5D8 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A51A63392D00B1E5D8 /* Debug.swift */; };
-		8EAF09AB1A6350B200B1E5D8 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Shift.swift */; };
+		8EAF09AB1A6350B200B1E5D8 /* Swiftly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF099F1A63363A00B1E5D8 /* Swiftly.swift */; };
 		8EAF09AC1A6350B500B1E5D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A31A6336A300B1E5D8 /* Model.swift */; };
 		8EAF09AD1A6350B800B1E5D8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09A11A63366600B1E5D8 /* Alamofire.swift */; };
-		8EAF09AF1A6350F500B1E5D8 /* ShiftTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */; };
+		8EAF09AF1A6350F500B1E5D8 /* SwiftlyTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09AE1A6350F500B1E5D8 /* SwiftlyTestModel.swift */; };
 		8EAF09B21A63900900B1E5D8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */; };
 		8EAF09B31A63909300B1E5D8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
@@ -35,18 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8EAF09831A63360E00B1E5D8 /* Shift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E336A071A6F44100071673D /* SwiftlyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftlyTests.swift; sourceTree = "<group>"; };
+		8E3DB6311A719F6C00F8E90F /* CollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTests.swift; sourceTree = "<group>"; };
+		8E3DB6331A719FAA00F8E90F /* SwiftlyTestCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftlyTestCollection.swift; sourceTree = "<group>"; };
+		8E6EDEC41A6E0842000FAC06 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		8EAF09831A63360E00B1E5D8 /* Swiftly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swiftly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAF09871A63360E00B1E5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EAF09881A63360E00B1E5D8 /* Shift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shift.h; sourceTree = "<group>"; };
-		8EAF098E1A63360E00B1E5D8 /* ShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAF09881A63360E00B1E5D8 /* Swiftly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swiftly.h; sourceTree = "<group>"; };
+		8EAF098E1A63360E00B1E5D8 /* SwiftlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAF09941A63360E00B1E5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EAF09951A63360E00B1E5D8 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
-		8EAF099F1A63363A00B1E5D8 /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		8EAF099F1A63363A00B1E5D8 /* Swiftly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftly.swift; sourceTree = "<group>"; };
 		8EAF09A11A63366600B1E5D8 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		8EAF09A31A6336A300B1E5D8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8EAF09A51A63392D00B1E5D8 /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
-		8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShiftTests.xcdatamodel; sourceTree = "<group>"; };
-		8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftTestModel.swift; sourceTree = "<group>"; };
+		8EAF09A81A633A5700B1E5D8 /* SwiftlyTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftlyTests.xcdatamodel; sourceTree = "<group>"; };
+		8EAF09AE1A6350F500B1E5D8 /* SwiftlyTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftlyTestModel.swift; sourceTree = "<group>"; };
 		8EAF09B11A63900900B1E5D8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAF098F1A63360E00B1E5D8 /* Shift.framework in Frameworks */,
+				8EAF098F1A63360E00B1E5D8 /* Swiftly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +81,8 @@
 		8EAF09791A63360E00B1E5D8 = {
 			isa = PBXGroup;
 			children = (
-				8EAF09851A63360E00B1E5D8 /* Shift */,
-				8EAF09921A63360E00B1E5D8 /* ShiftTests */,
+				8EAF09851A63360E00B1E5D8 /* Swiftly */,
+				8EAF09921A63360E00B1E5D8 /* SwiftlyTests */,
 				8EAF09841A63360E00B1E5D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,22 +90,23 @@
 		8EAF09841A63360E00B1E5D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EAF09831A63360E00B1E5D8 /* Shift.framework */,
-				8EAF098E1A63360E00B1E5D8 /* ShiftTests.xctest */,
+				8EAF09831A63360E00B1E5D8 /* Swiftly.framework */,
+				8EAF098E1A63360E00B1E5D8 /* SwiftlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EAF09851A63360E00B1E5D8 /* Shift */ = {
+		8EAF09851A63360E00B1E5D8 /* Swiftly */ = {
 			isa = PBXGroup;
 			children = (
-				8EAF09881A63360E00B1E5D8 /* Shift.h */,
-				8EAF099F1A63363A00B1E5D8 /* Shift.swift */,
+				8EAF09881A63360E00B1E5D8 /* Swiftly.h */,
+				8EAF099F1A63363A00B1E5D8 /* Swiftly.swift */,
+				8E6EDEC41A6E0842000FAC06 /* Collection.swift */,
 				8EAF09A31A6336A300B1E5D8 /* Model.swift */,
 				8EAF09A51A63392D00B1E5D8 /* Debug.swift */,
 				8EAF09861A63360E00B1E5D8 /* Supporting Files */,
 			);
-			path = Shift;
+			path = Swiftly;
 			sourceTree = "<group>";
 		};
 		8EAF09861A63360E00B1E5D8 /* Supporting Files */ = {
@@ -108,14 +118,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8EAF09921A63360E00B1E5D8 /* ShiftTests */ = {
+		8EAF09921A63360E00B1E5D8 /* SwiftlyTests */ = {
 			isa = PBXGroup;
 			children = (
+				8E336A071A6F44100071673D /* SwiftlyTests.swift */,
+				8E3DB6311A719F6C00F8E90F /* CollectionTests.swift */,
 				8EAF09951A63360E00B1E5D8 /* ModelTests.swift */,
 				8EAF09B01A63519B00B1E5D8 /* Core Data */,
 				8EAF09931A63360E00B1E5D8 /* Supporting Files */,
 			);
-			path = ShiftTests;
+			path = SwiftlyTests;
 			sourceTree = "<group>";
 		};
 		8EAF09931A63360E00B1E5D8 /* Supporting Files */ = {
@@ -129,8 +141,9 @@
 		8EAF09B01A63519B00B1E5D8 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */,
-				8EAF09AE1A6350F500B1E5D8 /* ShiftTestModel.swift */,
+				8EAF09A71A633A5700B1E5D8 /* SwiftlyTests.xcdatamodeld */,
+				8E3DB6331A719FAA00F8E90F /* SwiftlyTestCollection.swift */,
+				8EAF09AE1A6350F500B1E5D8 /* SwiftlyTestModel.swift */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -151,16 +164,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAF09891A63360E00B1E5D8 /* Shift.h in Headers */,
+				8EAF09891A63360E00B1E5D8 /* Swiftly.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8EAF09821A63360E00B1E5D8 /* Shift */ = {
+		8EAF09821A63360E00B1E5D8 /* Swiftly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EAF09991A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "Shift" */;
+			buildConfigurationList = 8EAF09991A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "Swiftly" */;
 			buildPhases = (
 				8EAF097E1A63360E00B1E5D8 /* Sources */,
 				8EAF097F1A63360E00B1E5D8 /* Frameworks */,
@@ -171,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = Shift;
+			name = Swiftly;
 			productName = Shift;
-			productReference = 8EAF09831A63360E00B1E5D8 /* Shift.framework */;
+			productReference = 8EAF09831A63360E00B1E5D8 /* Swiftly.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8EAF098D1A63360E00B1E5D8 /* ShiftTests */ = {
+		8EAF098D1A63360E00B1E5D8 /* SwiftlyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EAF099C1A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "ShiftTests" */;
+			buildConfigurationList = 8EAF099C1A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "SwiftlyTests" */;
 			buildPhases = (
 				8EAF098A1A63360E00B1E5D8 /* Sources */,
 				8EAF098B1A63360E00B1E5D8 /* Frameworks */,
@@ -189,9 +202,9 @@
 			dependencies = (
 				8EAF09911A63360E00B1E5D8 /* PBXTargetDependency */,
 			);
-			name = ShiftTests;
+			name = SwiftlyTests;
 			productName = ShiftTests;
-			productReference = 8EAF098E1A63360E00B1E5D8 /* ShiftTests.xctest */;
+			productReference = 8EAF098E1A63360E00B1E5D8 /* SwiftlyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,13 +218,14 @@
 				TargetAttributes = {
 					8EAF09821A63360E00B1E5D8 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L9UAMM8S3T;
 					};
 					8EAF098D1A63360E00B1E5D8 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 8EAF097D1A63360E00B1E5D8 /* Build configuration list for PBXProject "Shift" */;
+			buildConfigurationList = 8EAF097D1A63360E00B1E5D8 /* Build configuration list for PBXProject "Swiftly" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EAF09821A63360E00B1E5D8 /* Shift */,
-				8EAF098D1A63360E00B1E5D8 /* ShiftTests */,
+				8EAF09821A63360E00B1E5D8 /* Swiftly */,
+				8EAF098D1A63360E00B1E5D8 /* SwiftlyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,11 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAF09A01A63363A00B1E5D8 /* Swiftly.swift in Sources */,
+				8E6EDEC51A6E0842000FAC06 /* Collection.swift in Sources */,
 				8EAF09A41A6336A300B1E5D8 /* Model.swift in Sources */,
 				8EAF09A61A63392D00B1E5D8 /* Debug.swift in Sources */,
 				8EAF09A21A63366600B1E5D8 /* Alamofire.swift in Sources */,
 				8EAF09B21A63900900B1E5D8 /* SwiftyJSON.swift in Sources */,
-				8EAF09A01A63363A00B1E5D8 /* Shift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +279,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAF09AD1A6350B800B1E5D8 /* Alamofire.swift in Sources */,
+				8E3DB6351A71A01800F8E90F /* CollectionTests.swift in Sources */,
+				8E3DB6361A71A05400F8E90F /* SwiftlyTestCollection.swift in Sources */,
+				8E3DB6371A71A08000F8E90F /* Collection.swift in Sources */,
 				8EAF09AC1A6350B500B1E5D8 /* Model.swift in Sources */,
-				8EAF09AB1A6350B200B1E5D8 /* Shift.swift in Sources */,
+				8E336A081A6F44100071673D /* SwiftlyTests.swift in Sources */,
+				8EAF09AB1A6350B200B1E5D8 /* Swiftly.swift in Sources */,
 				8EAF09B31A63909300B1E5D8 /* SwiftyJSON.swift in Sources */,
-				8EAF09A91A633A5700B1E5D8 /* ShiftTests.xcdatamodeld in Sources */,
-				8EAF09AF1A6350F500B1E5D8 /* ShiftTestModel.swift in Sources */,
+				8EAF09A91A633A5700B1E5D8 /* SwiftlyTests.xcdatamodeld in Sources */,
+				8EAF09AF1A6350F500B1E5D8 /* SwiftlyTestModel.swift in Sources */,
 				8EAF09AA1A63501400B1E5D8 /* Debug.swift in Sources */,
 				8EAF09961A63360E00B1E5D8 /* ModelTests.swift in Sources */,
 			);
@@ -279,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		8EAF09911A63360E00B1E5D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EAF09821A63360E00B1E5D8 /* Shift */;
+			target = 8EAF09821A63360E00B1E5D8 /* Swiftly */;
 			targetProxy = 8EAF09901A63360E00B1E5D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -354,6 +373,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -373,16 +393,17 @@
 		8EAF099A1A63360E00B1E5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Shift/Info.plist;
+				INFOPLIST_FILE = Swiftly/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swiftly;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -391,16 +412,17 @@
 		8EAF099B1A63360E00B1E5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Shift/Info.plist;
+				INFOPLIST_FILE = Swiftly/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swiftly;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -416,9 +438,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ShiftTests/Info.plist;
+				INFOPLIST_FILE = SwiftlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftlyTests;
 			};
 			name = Debug;
 		};
@@ -429,16 +451,16 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ShiftTests/Info.plist;
+				INFOPLIST_FILE = SwiftlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftlyTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EAF097D1A63360E00B1E5D8 /* Build configuration list for PBXProject "Shift" */ = {
+		8EAF097D1A63360E00B1E5D8 /* Build configuration list for PBXProject "Swiftly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EAF09971A63360E00B1E5D8 /* Debug */,
@@ -447,32 +469,34 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EAF09991A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "Shift" */ = {
+		8EAF09991A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "Swiftly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EAF099A1A63360E00B1E5D8 /* Debug */,
 				8EAF099B1A63360E00B1E5D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8EAF099C1A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "ShiftTests" */ = {
+		8EAF099C1A63360E00B1E5D8 /* Build configuration list for PBXNativeTarget "SwiftlyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EAF099D1A63360E00B1E5D8 /* Debug */,
 				8EAF099E1A63360E00B1E5D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8EAF09A71A633A5700B1E5D8 /* ShiftTests.xcdatamodeld */ = {
+		8EAF09A71A633A5700B1E5D8 /* SwiftlyTests.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */,
+				8EAF09A81A633A5700B1E5D8 /* SwiftlyTests.xcdatamodel */,
 			);
-			currentVersion = 8EAF09A81A633A5700B1E5D8 /* ShiftTests.xcdatamodel */;
-			path = ShiftTests.xcdatamodeld;
+			currentVersion = 8EAF09A81A633A5700B1E5D8 /* SwiftlyTests.xcdatamodel */;
+			path = SwiftlyTests.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
