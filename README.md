@@ -1,2 +1,2 @@
 # Swiftly
-Backbone inspired Swift framework
+Backbone.js inspired Swift framework
